@@ -5,7 +5,7 @@ from ananas import PineappleBot, hourly, interval
 counter = 0
 
 class InspiroBot(PineappleBot):
-  @interval(10)
+  @interval(1200)
   def post(self):
     global counter
     if (counter > len(quotes)):

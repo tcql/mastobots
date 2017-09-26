@@ -1,11 +1,12 @@
 {
+  "name": "tcql-bots",
   "alias": "tcql-bots",
   "env": {
     "DADBOT_CLIENT_ID": "@dadbot-client_id",
     "DADBOT_CLIENT_SECRET": "@dadbot-client_secret",
     "DADBOT_ACCESS_TOKEN": "@dadbot-access_token",
     "INSPIROBOT_CLIENT_ID": "@inspirobot-client_id",
-    "INSPIROBOT_CLIENT_SECRET": "@dinspiroot-client_secret",
-    "INSPIROBOT_ACCESS_TOKEN": "@inspirobot-access_token",
+    "INSPIROBOT_CLIENT_SECRET": "@inspirobot-client_secret",
+    "INSPIROBOT_ACCESS_TOKEN": "@inspirobot-access_token"
   }
 }
