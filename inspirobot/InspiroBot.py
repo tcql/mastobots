@@ -1,6 +1,6 @@
 import requests
 from inspirobot.quotes import quotes
-from ananas import PineappleBot, hourly, interval
+from ananas import PineappleBot, interval
 
 counter = 0
 
