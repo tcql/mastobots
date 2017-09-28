@@ -19,7 +19,7 @@ class InspiroBot(PineappleBot):
     global counter
     global reference
 
-    if (counter > len(quotes)):
+    if (counter >= len(quotes)):
       counter = 0
 
     generated = requests.get('http://inspirobot.me/api', {'generate': 'true'})
