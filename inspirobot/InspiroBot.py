@@ -3,7 +3,7 @@ import requests
 import numpy as np
 from PIL import Image
 from inspirobot.quotes import quotes
-from ananas import PineappleBot, interval
+from ananas import PineappleBot, schedule
 
 counter = 0
 reference = np.asarray(Image.open(open('./inspirobot/bad.jpg', 'rb'))).astype(np.float32)
@@ -14,7 +14,18 @@ def compareImages(A, B):
   return (rmse <= 60) # are these images ~ similar?
 
 class InspiroBot(PineappleBot):
-  @interval(1200)
+  @schedule(hour=0, minute=0)
+  @schedule(hour=2, minute=0)
+  @schedule(hour=4, minute=0)
+  @schedule(hour=6, minute=0)
+  @schedule(hour=8, minute=0)
+  @schedule(hour=10, minute=0)
+  @schedule(hour=12, minute=0)
+  @schedule(hour=14, minute=0)
+  @schedule(hour=16, minute=0)
+  @schedule(hour=18, minute=0)
+  @schedule(hour=20, minute=0)
+  @schedule(hour=22, minute=0)
   def post(self):
     global counter
     global reference
