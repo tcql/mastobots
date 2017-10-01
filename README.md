@@ -1,6 +1,11 @@
 # mastobots
 
-Currently the code for [@ImDad@botsin.space](https://botsin.space/@ImDad) and [@InspiroBot@botsin.space](https://botsin.space/@InspiroBot). Both bots are built using https://github.com/Chronister/ananas
+[@ImDad@botsin.space](https://botsin.space/@ImDad) and [@InspiroBot@botsin.space](https://botsin.space/@InspiroBot)
+
+# Essential references
+
+- [Ananas](https://github.com/Chronister/ananas) – bot framework that handles scheduled posting, reply posting, bot config, and more 
+- [Mastodon.py](https://mastodonpy.readthedocs.io/en/latest/) – mastodon interaction library that powers Ananas. Whether it's uploading media, posting toots, or looking up user profiles, any mastodon interactions Ananas does will use Mastodon.py methods
 
 
 # Running locally
