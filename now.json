@@ -2,6 +2,8 @@
   "name": "tcql-bots",
   "alias": "tcql-bots",
   "env": {
+    "ADMIN": "tcql@octodon.social",
+    "DOMAIN": "botsin.space",
     "DADBOT_CLIENT_ID": "@dadbot-client_id",
     "DADBOT_CLIENT_SECRET": "@dadbot-client_secret",
     "DADBOT_ACCESS_TOKEN": "@dadbot-access_token",
