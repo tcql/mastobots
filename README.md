@@ -11,10 +11,6 @@ To run the bots locally you need:
 - the internet
 - a mastodon application's client id, client secret, and access token 
 
-There are two ways to pass in your client ids, secrets, and access tokens. 
-
-
-
 <details>
   <summary><strong>Click here if you don't know how to get client ids, secrets, and access tokens</strong></summary>
 
@@ -33,6 +29,10 @@ _Don't just create an application on your normal mastodon account; the bots will
 6. Make note of the `client key`, `client secret` and `access token` that are shown once you save the application, you'll need those soon!
 
 </details>
+
+
+There are two ways to pass in your client ids, secrets, and access tokens. 
+
 
 ## Way no.1: create an .env.local
 
