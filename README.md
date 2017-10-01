@@ -1,6 +1,6 @@
 # mastobots
 
-Currently the code for [@ImDad@botsin.space](https://botsin.space/@ImDad) and [@InspiroBot@botsin.space](https://botsin.space/@InspiroBot)
+Currently the code for [@ImDad@botsin.space](https://botsin.space/@ImDad) and [@InspiroBot@botsin.space](https://botsin.space/@InspiroBot). Both bots are built using https://github.com/Chronister/ananas
 
 
 # Running locally
@@ -27,8 +27,8 @@ _Don't just create an application on your normal mastodon account; the bots will
    - Website and Redirect URI aren't important for us
    - Ensure you've got the scopes enabled. You should only need _read_ and _write_, but there's no harm in having _follow_ enabled too
 6. Make note of the `client key`, `client secret` and `access token` that are shown once you save the application, you'll need those soon!
-
 </details>
+<br />
 
 
 There are two ways to pass in your client ids, secrets, and access tokens. 
