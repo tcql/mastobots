@@ -1,6 +1,6 @@
 # mastobots
 
-Currently the code for @ImDad@botsin.space and @InspiroBot@botsin.space
+Currently the code for [@ImDad@botsin.space](https://botsin.space/@ImDad) and [@InspiroBot@botsin.space](https://botsin.space/@InspiroBot)
 
 
 # Running locally
