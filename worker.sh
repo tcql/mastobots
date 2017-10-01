@@ -1,4 +1,6 @@
-
+if [ -e "./.env.local" ]; then
+  source ./.env.local
+fi
 
 function subst() { eval echo -E "$2"; }
 
