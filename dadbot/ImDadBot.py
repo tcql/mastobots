@@ -5,7 +5,7 @@ class ImDadBot(PineappleBot):
   @reply
   def im_dad(self, mention, user):
     match = re.match(r"(.*)?i'?m\s(.*)", html_strip_tags(mention["content"]), re.I)
-    if (match != None):
+    if (match is not None):
       post = "@{0} hi {1}, i'm dad!".format(user["acct"], match.group(2))
       lentest = len(post)
       if (mention['spoiler_text'] != None):

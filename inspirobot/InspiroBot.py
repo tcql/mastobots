@@ -44,10 +44,10 @@ class InspiroBot(PineappleBot):
 
       print('posting')
       media = self.mastodon.media_post(imageData.content, "image/jpeg")
-      if (media['id'] != None):
+      if (media['id'] is not None):
         quote = quotes[counter]
         counter += 1
-        self.mastodon.status_post(quote + " \n" + media['url'], media_ids=[media['id']])
+        self.mastodon.status_post("{0}\n{1}".format(quote, media['url']), media_ids=[media['id']])
     else:
       print('error')
 
